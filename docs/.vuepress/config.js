@@ -171,6 +171,7 @@ module.exports = {
       '/luyan/':[
         {
           title: '01月',  //组名
+          children: ['2', ],   //该分组下要显示的文件的目录
         },
         {
           title: '02月',
