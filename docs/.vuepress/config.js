@@ -3,7 +3,6 @@ module.exports = {
   description: 'LAMOST 运行和发展中心',
   plugins: [
     '@vuepress/back-to-top',
-    '@vuepress/last-updated0',
     ['vuepress-plugin-mathjax'],
     {
       target: 'chtml',
@@ -16,6 +15,7 @@ module.exports = {
   themeConfig: {
     nav: [
       { text: '使用说明', link: '/Demo/' },
+      { text: '秦丽', link: '/qinli/'},
       { text: '李硕', link: '/lishuo/'},
       { text: '鲁燕', link: '/luyan/'},
       { text: '陈静', link: '/chenjing/' },
@@ -413,6 +413,47 @@ module.exports = {
       ],
       /* ============================================================================= */
 
+         /* 秦丽*/
+         '/qinli/':[
+          {
+            title: '01月',
+            children: ['2', ],  //组名
+          },
+          {
+            title: '02月',
+          },
+          {
+            title: '03月',
+          },
+          {
+            title: '04月',
+          },
+          {
+            title: '05月',
+          },
+          {
+            title: '06月',
+          },
+          {
+            title: '07月',
+                    },
+          {
+            title: '08月',
+                    },
+          {
+            title: '09月',
+                    },
+          {
+            title: '10月',
+                   },
+          {
+            title: '11月',
+                    },
+          {
+            title: '12月',
+          },
+        ],
+        /* ============================================================================= */
     }
   }
 } 
