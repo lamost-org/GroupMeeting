@@ -3,6 +3,7 @@ module.exports = {
   description: 'LAMOST 运行和发展中心',
   plugins: [
     '@vuepress/back-to-top',
+    '@vuepress/medium-zoom',
     ['vuepress-plugin-mathjax'],
     {
       target: 'chtml',
