@@ -214,7 +214,7 @@ module.exports = {
       '/chenjing/':[
         {
           title: '01月',  //组名
-          children: ['2', ]
+          children: ['2', '3', ]
         },
         {
           title: '02月',
@@ -339,7 +339,7 @@ module.exports = {
       '/qucaixia/':[
         {
           title: '01月',  //组名
-          children: ['2', ]
+          children: ['2', '3', ]
         },
         {
           title: '02月',
