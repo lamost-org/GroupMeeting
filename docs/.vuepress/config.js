@@ -47,7 +47,7 @@ module.exports = {
       '/maxiaoxiao/':[
         {
           title: '01月',  //组名
-          children: ['1', '2', ],   //该分组下要显示的文件的目录
+          children: ['1', '2', '3'],   //该分组下要显示的文件的目录
         },
         {
           title: '02月',
@@ -422,7 +422,7 @@ module.exports = {
       '/qinli/':[
       {
         title: '01月',
-        children: ['2', ],  //组名
+        children: ['2', '3', ],  //组名
       },
       {
         title: '02月',
