@@ -47,7 +47,7 @@ module.exports = {
       '/maxiaoxiao/':[
         {
           title: '01月',  //组名
-          children: ['1', '2', '3'],   //该分组下要显示的文件的目录
+          children: ['1', '2', '3', '4', ],   //该分组下要显示的文件的目录
         },
         {
           title: '02月',
@@ -214,7 +214,7 @@ module.exports = {
       '/chenjing/':[
         {
           title: '01月',  //组名
-          children: ['2', '3', ]
+          children: ['2', '3', '4']
         },
         {
           title: '02月',
@@ -297,7 +297,7 @@ module.exports = {
       '/hanbochong/':[
         {
           title: '01月',  //组名
-          children: ['2', ]
+          children: ['2', '4']
         },
         {
           title: '02月',
@@ -339,7 +339,7 @@ module.exports = {
       '/qucaixia/':[
         {
           title: '01月',  //组名
-          children: ['2', '3', ]
+          children: ['2', '3', '4', ]
         },
         {
           title: '02月',
@@ -422,7 +422,7 @@ module.exports = {
       '/qinli/':[
       {
         title: '01月',
-        children: ['2', '3', ],  //组名
+        children: ['2', '3', '4', ],  //组名
       },
       {
         title: '02月',
