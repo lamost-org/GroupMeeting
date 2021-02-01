@@ -63,6 +63,11 @@ function mxxSidebarConf() {
       title: '01月',  //组名
       children: ['1', '2', '3', '4', ],   //该分组下要显示的文件的目录
     },
+    {
+      title: '02月', 
+      children: ['5',], 
+      collapsable: false,
+    },
   ];
 }
 
@@ -74,8 +79,9 @@ function hxjSidebarConf() {
       children: ['1', '2', '3', '4', ],   //该分组下要显示的文件的目录
     },
     {
-      title: '02月',  //组名
-      children: ['5',],   //该分组下要显示的文件的目录
+      title: '02月',
+      children: ['5',],
+      collapsable: false,
     },
   ];
 }
@@ -96,6 +102,11 @@ function cjSidebarConf() {
     {
       title: '01月',  //组名
       children: ['2', '3', '4']
+    },
+    {
+      title: '02月', 
+      children: ['5',], 
+      collapsable: false,
     },
   ];
 }
