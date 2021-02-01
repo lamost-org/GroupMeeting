@@ -73,6 +73,10 @@ function hxjSidebarConf() {
       title: '01月',  //组名
       children: ['1', '2', '3', '4', ],   //该分组下要显示的文件的目录
     },
+    {
+      title: '02月',  //组名
+      children: ['5',],   //该分组下要显示的文件的目录
+    },
   ];
 }
 
