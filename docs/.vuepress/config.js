@@ -128,6 +128,11 @@ function qcxSidebarConf() {
       title: '01月',  //组名
       children: ['2', '3', '4', ]
     },
+    {
+      title: '02月', 
+      children: ['5',], 
+      collapsable: false,
+    },
   ];
 }
 
