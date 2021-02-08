@@ -118,6 +118,11 @@ function hbcSidebarConf() {
       title: '01月',  //组名
       children: ['2', '4']
     },
+    {
+      title: '02月', 
+      children: ['6',], 
+      collapsable: false,
+    },
   ];
 }
 
