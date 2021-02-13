@@ -1,22 +1,33 @@
 module.exports = {
+  theme: 'reco',
   title: '2021年学生组会',
   description: 'LAMOST 运行和发展中心',
   head: [
     ['link', {rel:'shortcut icon', href:'/favicon.ico'}] 
   ],
   plugins: [
-    '@vuepress/back-to-top',
-    '@vuepress/medium-zoom',
-    ['vuepress-plugin-mathjax'],
-    {
-      target: 'chtml',
-      macros: {
-        '*': '\\times',
-      },
-    },
+    ['@vuepress/back-to-top'],
+    ['@vuepress/medium-zoom'],
+    ['vuepress-plugin-mathjax',
+      {
+        target: 'chtml',
+        macros: {
+          '*': '\\times',
+        },
+      }
+    ],
   ],
   base: '/GroupMeeting/',
   themeConfig: {
+    // reco-theme
+    keyPage: {
+      keys: ['8cc15794d76e26500daaf39ce35e0bd6'],  // 1.3.0 版本后需要设置为密文
+      color: '#42b983',  // 登录页动画球的颜色
+      lineColor: '#42b983'  // 登录页动画线的颜色
+    },
+    subSidebar: 'auto',  //在所有页面中启用自动生成子侧边栏，原 sidebar 仍然兼容
+
+    // default-theme
     nav: [
       { text: '使用说明', link: '/Demo/' },
       { text: '秦丽', link: '/qinli/'},
