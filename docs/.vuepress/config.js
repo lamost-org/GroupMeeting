@@ -26,6 +26,11 @@ module.exports = {
       lineColor: '#42b983'  // 登录页动画线的颜色
     },
     subSidebar: 'auto',  //在所有页面中启用自动生成子侧边栏，原 sidebar 仍然兼容
+    blogConfig: {  // 博客配置
+      socialLinks: [     // 信息栏展示社交信息
+        { icon: 'reco-github', link: 'https://github.com/iScottMark' },
+      ]
+    },
 
     // default-theme
     nav: [
