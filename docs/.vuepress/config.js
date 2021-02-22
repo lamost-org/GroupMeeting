@@ -121,7 +121,7 @@ function cjSidebarConf() {
     },
     {
       title: '02月', 
-      children: ['5', '6',], 
+      children: ['5', '6', '8'], 
       collapsable: false,
     },
   ];
