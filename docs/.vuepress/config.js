@@ -99,6 +99,11 @@ function hxjSidebarConf() {
       children: ['5', '8', '9'],
       collapsable: false,
     },
+    {
+      title: '03月',
+      children: ['10'],
+      collapsable: false,
+    },
   ];
 }
 
