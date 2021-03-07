@@ -38,6 +38,7 @@ module.exports = {
       { text: '秦丽', link: '/qinli/'},
       { text: '鲁燕', link: '/luyan/'},
       { text: '陈静', link: '/chenjing/' },
+      { text: '陈向蕾', link: '/chenxianglei/' },
       { text: '韩博冲', link: '/hanbochong/'},
       { text: '屈彩霞', link: '/qucaixia/'},
       { text: '何徐江', link: '/hexujiang/' },
@@ -54,6 +55,7 @@ module.exports = {
       '/hexujiang/': hxjSidebarConf(),    // 何徐江
       '/luyan/': lySidebarConf(),         // 鲁燕
       '/chenjing/': cjSidebarConf(),      // 陈静
+      '/chenxianglei/': cxlSidebarConf(), // 陈向蕾
       '/hanbochong/': hbcSidebarConf(),   // 韩博冲
       '/qucaixia/': qcxSidebarConf(),     // 屈彩霞
       '/qinli/': qlSidebarConf(),         // 秦丽
@@ -131,6 +133,17 @@ function cjSidebarConf() {
       title: '02月', 
       children: ['5', '6', '8', '9'], 
     },
+    {
+      title: '03月',
+      children: ['10',],
+      collapsable: false,
+    },
+  ];
+}
+
+// 陈向蕾
+function cxlSidebarConf() {
+  return [
     {
       title: '03月',
       children: ['10',],
