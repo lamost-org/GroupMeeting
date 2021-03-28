@@ -106,7 +106,7 @@ function hxjSidebarConf() {
     },
     {
       title: '03月',
-      children: ['10',],
+      children: ['10', '13'],
       collapsable: false,
     },
   ];
