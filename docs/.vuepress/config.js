@@ -91,7 +91,7 @@ function mxxSidebarConf() {
     },
     {
       title: '04月', 
-      children: ['14',], 
+      children: ['14', '15',], 
       collapsable: false,
     },
   ];
