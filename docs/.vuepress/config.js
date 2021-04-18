@@ -158,7 +158,7 @@ function cxlSidebarConf() {
     },
     {
       title: '04月', 
-      children: ['15',], 
+      children: ['15', '16',], 
       collapsable: false,
     },
   ];
