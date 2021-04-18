@@ -143,7 +143,7 @@ function cjSidebarConf() {
     },
     {
       title: '04月',
-      children: ['14',],
+      children: ['14', '16',],
       collapsable: false,
     },
   ];
