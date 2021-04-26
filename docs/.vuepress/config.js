@@ -196,7 +196,7 @@ function qcxSidebarConf() {
     },
     {
       title: '04月', 
-      children: ['15',], 
+      children: ['15', '17'], 
       collapsable: false,
     },
   ];
