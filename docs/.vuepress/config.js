@@ -92,6 +92,10 @@ function mxxSidebarConf() {
     {
       title: '04月', 
       children: ['14', '15', '16', '17'], 
+    },
+    {
+      title: '05月', 
+      children: ['19',], 
       collapsable: false,
     },
   ];
